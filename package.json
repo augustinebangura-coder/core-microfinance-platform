@@ -1,0 +1,26 @@
+{
+  "name": "core-microfinance-platform",
+  "version": "1.0.0",
+  "description": "Enterprise-Grade Microfinance Data Sync & Compliance Platform for Sierra Leone",
+  "private": true,
+  "workspaces": [
+    "mobile",
+    "web-dashboard",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "install-all": "npm install && cd mobile && npm install && cd ../web-dashboard && npm install && cd ../backend && npm install && cd ../shared && npm install && cd ..",
+    "dev:mobile": "cd mobile && npm start",
+    "dev:web": "cd web-dashboard && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "build:mobile": "cd mobile && npm run build",
+    "build:web": "cd web-dashboard && npm run build",
+    "test": "npm run test --workspaces",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0"
+  }
+}

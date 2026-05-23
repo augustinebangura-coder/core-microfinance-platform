@@ -1,0 +1,17 @@
+{
+  "name": "@core/shared",
+  "version": "1.0.0",
+  "description": "Shared types, constants, and utilities for C.O.R.E. platform",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
