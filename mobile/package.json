@@ -1,0 +1,1 @@
+{\n  "name": "core-mobile",\n  "version": "1.0.0",\n  "description": "C.O.R.E. Mobile Field Capture App",\n  "scripts": {"start": "expo start"},\n  "dependencies": {"expo": "~49.0.0","react": "18.2.0"}\n}
